@@ -1,0 +1,41 @@
+body {
+    font-family: 'Ubuntu';
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.page__header__logo__container {
+    display: flex;
+    gap: 1rem; 
+}
+
+.page__header__logo__container h1 {
+    color: #4D4D4D;
+}
+
+
+
+.navbar_container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 96px;
+}
+
+
+.navbar_options {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    line-height: 0;
+}
+
+
+.navbar_options p {
+    height: 96px;
+    width: 134px;
+    text-align: center;
+    line-height: 96px;
+    margin: 0;
+}
+
