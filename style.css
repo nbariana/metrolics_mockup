@@ -13,7 +13,52 @@ body {
     color: #4D4D4D;
 }
 
+.metrolics_logo {
+    flex: 0 0 16px;
+    height: 16px;
+    margin-top: 2.25rem;
+}
 
+.navbar_options p {
+    height: 96px;
+    width: 134px;
+    text-align: center;
+    line-height: 96px;
+    font-weight: lighter;
+}
+
+.navbar_selection_home {
+    background-color: #25C389;
+    color: white;
+}
+
+.navbar_selection_portfolio {
+    background-color: #FFB901;
+    color: white;
+}
+
+.navbar_selection_blog {
+    background-color: #DE6262;
+    color: white;
+}
+
+.navbar_selection_qv {
+    background-color: #19B2DE;
+    color: white;
+}
+
+.navbar_selection_lc {
+    background-color: #265787;
+    color: white;
+}
+
+.page__navbar__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    min-height: 0;
+}
 
 .navbar_container {
     display: flex;
@@ -22,14 +67,12 @@ body {
     height: 96px;
 }
 
-
 .navbar_options {
     margin: 0;
     padding: 0;
     height: auto;
     line-height: 0;
 }
-
 
 .navbar_options p {
     height: 96px;
@@ -39,3 +82,119 @@ body {
     margin: 0;
 }
 
+
+
+
+
+
+
+
+
+
+.portfolio__post__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.portfolio__post img {
+    max-width: 320px;
+    max-height: 256px;
+}
+
+.previousClients__container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    max-height: 128px;
+}
+
+.previousClients__post {
+    margin: 0 1rem;
+    background-color: #F3F3F3;
+    padding: 1rem;
+    max-width: 180px;
+    max-height: 128px;
+}
+
+.krita__logo {
+    width: 148px;
+    height: 49px;
+    padding: inherit;
+    display: block;
+    margin: auto;
+}
+
+.inkscape__logo {
+    padding: inherit;
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 1rem;
+    margin-bottom: 20rem;
+}
+
+
+.page__footer {
+    background-color: #0E2E4E;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.page__footer p {
+    color: white;
+}
+
+
+
+
+
+
+
+.page__footer__container {
+    margin-left: 16rem;
+    margin-right: 16rem;
+}
+
+
+
+
+
+.footer__information__instagram__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px 16px;
+}
+
+.footer__information__instagram__post {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.footer__information__newMastodon__container p {
+    font-size: 0.78rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__information__newMastodon__author {
+    color: #1BADE6;
+}
+
+
+.page__footer__image__container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
