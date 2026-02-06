@@ -82,58 +82,27 @@ body {
     margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-.portfolio__post__container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto auto auto;
-    gap: 50px;
-}
-
-.portfolio__post img {
-    max-width: 320px;
-    max-height: 256px;
-}
-
-.previousClients__container {
+.imageContainer {
+    background-color: #EBEBEB;
     display: flex;
-    justify-content: center;
-    padding: 1rem;
-    max-height: 128px;
+    justify-content: center; 
+    align-items: center;
 }
 
-.previousClients__post {
-    margin: 0 1rem;
-    background-color: #F3F3F3;
-    padding: 1rem;
-    max-width: 180px;
-    max-height: 128px;
-}
-
-.krita__logo {
-    width: 148px;
-    height: 49px;
-    padding: inherit;
+.introduction__image {
+    height: auto;
+    width: 100%;
     display: block;
-    margin: auto;
-}
+} 
 
-.inkscape__logo {
-    padding: inherit;
-    display: block;
-    margin-top: 0;
-    padding-top: 0;
-    margin-left: 1rem;
-    margin-bottom: 20rem;
-}
+
+
+
+
+
+
+
+
 
 
 .page__footer {
@@ -146,18 +115,91 @@ body {
     color: white;
 }
 
+.founder {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-top: 2rem;
+    max-width: 51%;
+}
 
+.founder__image__wrapper {
+    width: 118px;
+    height: 118px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    
+}
+.founder__image__wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 25%;
+    transform: scale(1.15);
+}
 
-
-
-
+.founder__text__line {
+    color: #FFB901;
+    width: 20%;
+    height: 0.1rem;
+    background-color: #FFB901;
+    margin-left: 0;
+}
 
 .page__footer__container {
     margin-left: 16rem;
     margin-right: 16rem;
 }
 
+.footer__information {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
 
+.footer__information__aboutUs, .footer__information__instagram {
+    flex-basis: 25%;
+}
+
+.footer__information__newMastodon {
+    flex-basis: 35%;
+}
+
+.footer__information__trackUs {
+    flex-basis: 15%;
+}
+
+
+.footer__information__aboutUs__header {
+    color: #FFB901;
+}
+
+.footer__information__aboutUs__line {
+    color: #21C183;
+    width: 95%;
+    align-self: flex-start;
+    margin-left: 0;
+}
+
+.footer__information__instagram__header {
+    color: #DE6262;
+}
+
+
+
+
+
+.footer__information__newMastodon__header {
+    color: #19B2DE;
+}
+
+
+
+.footer__information__trackUs__header {
+    color: white;
+}
 
 
 
@@ -176,23 +218,87 @@ body {
     font-size: 0.78rem;
 }
 
+.footer__trackUs__darkBlue {
+    background-color: #527CC4;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
 
+.footer__trackUs__red {
+    background-color: #E46145;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
 
+.footer__trackUs__lightBlue {
+    background-color: #00B0E2;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
 
+.footer__trackUs__pink {
+    background-color: #F6679C;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
 
+.footer__trackUs__yellow {
+    background-color: #FFB901;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
 
+.footer__trackUs__color__container {
+    display: grid;
+    grid-template-columns: 42px 42px 42px 42px;
+    row-gap: 10px;
+}
 
+.footer__trackUs__redRectangle {
+    width: 130px;
+    height: 32px;
+    background-color: #DE6262;
+    border-radius: 2px;
+}
 
+.footer__trackUs__redRectangle p {
+    text-align: center;
+    line-height: 0px;
+}
 
+.footer__trackUs__email__container {
+    display: flex;
+    margin: 15px 0;
+}
 
+.footer__enter__email {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.9rem;
+}
 
-
-
+.footer_paper_plane {
+    border-radius: 2px;
+    margin-left: .35rem;
+    margin-top: .35rem;
+}
 
 .footer__information__newMastodon__author {
     color: #1BADE6;
 }
 
+.clourbar__image {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: block;
+}
 
 .page__footer__image__container {
     margin-bottom: 0;
