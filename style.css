@@ -189,19 +189,32 @@ body {
 
 
 
-
+.footer__information__instagram__line {
+    color: #19B2DE;
+    width: 100%;
+    margin-left: 0;
+}
 
 .footer__information__newMastodon__header {
     color: #19B2DE;
 }
 
-
+.footer__information__newMastodon__line {
+    color: #FFB901;
+    width: 65%;
+    margin-left: 0;
+}
 
 .footer__information__trackUs__header {
     color: white;
 }
 
-
+.footer__information__trackUs__line {
+    color: #19B2DE;
+    width: 80%;
+    align-self: flex-start;
+    margin-left: 0;
+}
 
 .footer__information__instagram__container {
     display: grid;
