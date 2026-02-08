@@ -95,6 +95,84 @@ body {
     display: block;
 } 
 
+.grey__arrow__image {
+    padding: 0.9rem;
+    max-width: 2rem;
+}
+
+.introduction__image__container {
+    position: relative;
+    width: 70%;
+} 
+
+
+
+
+.introduction {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px; 
+    color: #3B3B3B;
+}
+
+.introduction span {
+    color: #1EAFDE;
+}
+
+.header {
+    text-align: center;
+    color: #494949;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.subheader {
+    text-align: center;
+    color: #A3A3A3;
+    font-size: .6rem;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__card__container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap: 1.7rem;
+}
+
+.services__card__image {
+    display: block;
+    margin: auto;
+}
+
+.services__card__heading {
+    text-align: center;
+    color: #545454;
+}
+
+.services__card__description {
+    color: #939393;
+}
+
+.latestWork__post__container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* MAY NEED ATTN */
+}
+
+.latestWork__post {
+    position: relative;
+}
+
+.latestWork__img {
+    display: block;
+
+}
 
 
 
@@ -103,6 +181,52 @@ body {
 
 
 
+
+
+
+.portfolio__post__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.portfolio__post img {
+    max-width: 320px;
+    max-height: 256px;
+}
+
+.previousClients__container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    max-height: 128px;
+}
+
+.previousClients__post {
+    margin: 0 1rem;
+    background-color: #F3F3F3;
+    padding: 1rem;
+    max-width: 180px;
+    max-height: 128px;
+}
+
+.krita__logo {
+    width: 148px;
+    height: 49px;
+    padding: inherit;
+    display: block;
+    margin: auto;
+}
+
+.inkscape__logo {
+    padding: inherit;
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 1rem;
+    margin-bottom: 20rem;
+}
 
 
 .page__footer {
