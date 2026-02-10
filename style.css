@@ -551,5 +551,37 @@ body {
     .hero_container {
         display: none;
     }
+    .imageContainer {
+        padding: 20px 15px;
+    }
+
+    .introduction__image {
+        max-width: 100%;
+    }
+
+    .intro__image__text__container__blue,
+    .intro__image__text__container__red,
+    .intro__image__text__container__yellow {
+        font-size: 0.75rem;
+    }
+
+    .introduction {
+        padding: 30px 20px;
+        font-size: 1.5rem;
+        line-height: 1.6;
+    }
+
+    .header {
+        font-size: 1.5rem;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .subheader {
+        padding: 0 20px;
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+
 
 }
