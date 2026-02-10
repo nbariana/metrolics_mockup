@@ -1,0 +1,528 @@
+body {
+    font-family: 'Ubuntu';
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page__header__logo__container {
+    display: flex;
+    gap: 1rem;
+}
+
+.page__navbar__content {
+    max-width: 1000px ;
+    margin: auto;
+}
+
+.page__header__logo__container h1 {
+    color: #4D4D4D;
+}
+.page__header__logo__container img {
+    width: 200px;
+    margin: auto auto 0 0;
+}
+
+.hero_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #EBEBEB;
+    margin-bottom: 40px;
+}
+.hero_container .hero_image {
+    max-width: 1000px;
+}
+
+.hero_container .hero_chev {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.metrolics_logo {
+    flex: 0 0 16px;
+    height: 16px;
+}
+
+.navbar_options p {
+    height: 96px;
+    width: 134px;
+    text-align: center;
+    line-height: 96px;
+    font-weight: lighter;
+}
+
+.navbar_selection_home {
+    background-color: #25C389;
+    color: white;
+}
+
+.navbar_selection_portfolio {
+    background-color: #FFB901;
+    color: white;
+}
+
+.navbar_selection_blog {
+    background-color: #DE6262;
+    color: white;
+}
+
+.navbar_selection_qv {
+    background-color: #19B2DE;
+    color: white;
+}
+
+.navbar_selection_lc {
+    background-color: #265787;
+    color: white;
+}
+
+.page__navbar__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    min-height: 0;
+}
+/* Set the height to auto to ensure no extra height */
+
+.navbar_container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 96px;
+}
+/* Remove all padding and margin for container */
+
+.navbar_options {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    line-height: 0;
+}
+/* Enforce same rules on navbar_options as we did for container and options */
+
+.navbar_options p {
+    height: 96px;
+    width: 134px;
+    text-align: center;
+    line-height: 96px;
+    margin: 0;
+}
+/* Remove margin on p as well*/
+
+/* Just like with the span, our issue was that the centering needed to be done in here alone. */
+.imageContainer {
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px; /* Added only to make the site look better without an image: Remove when you have your image!*/
+}
+
+.introduction__image {
+    max-width: 70%;
+    height: auto;
+}
+
+.grey__arrow__image {
+    padding: 0.9rem;
+    max-width: 2rem
+}
+
+.introduction__image__container {
+    position: relative;
+    display: inline-block;
+}
+
+.intro__image__text__container__blue {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.introduction__image__text__blue {
+     background-color: #186AA2;
+     height: 20px;
+     width: 20px;
+}
+
+.intro__image__text__container__blue p, .intro__image__text__container__red p, .intro__image__text__container__yellow p {
+    background-color: white;
+    opacity: 80%;
+    color: #3C3C3C;
+    padding: 0.5rem;
+}
+
+.intro__image__text__container__red {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.introduction__image__text__red {
+     background-color: #DE6262;
+     height: 20px;
+     width: 20px;
+}
+
+.intro__image__text__container__yellow {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.introduction__image__text__yellow {
+
+    background-color: #FFB901;
+     height: 20px;
+     width: 20px;
+}
+
+
+/* We didn't need flex for this one! Just text-align center will do. */
+.introduction {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px; /* Limit the size of the text. (Closer to the figma design) */
+    margin: 0 auto; /* Centered the div itself */
+    color: #3B3B3B;
+}
+
+.introduction span {
+    color: #1EAFDE;
+}
+
+.header {
+    text-align: center;
+    color: #494949;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.subheader {
+    text-align: center;
+    color: #A3A3A3;
+    font-size: .6rem;
+}
+
+
+.services__card__container {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.services__card__image {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.services__card__heading {
+    text-align: center;
+    color: #545454;
+}
+
+.services__card__description {
+    text-align: left;
+    color: #939393;
+}
+
+.latestWork__post__container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 20px auto 50px auto;
+}
+.latestWork__post__container img{
+    display: block;
+    width: 100%;
+}
+
+.portfolio__post__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.portfolio__post img {
+    max-width: 320px;
+    max-height: 256px;
+}
+
+.previousClients__container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+    max-width: 1000px;
+    margin-bottom: 50px;
+}
+
+.previousClients__post {
+    background-color: #F3F3F3;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.previousClients__post img {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.krita__logo {
+    width: 148px;
+    height: 49px;
+    padding: inherit;
+    display: block;
+    margin: auto;
+}
+
+.inkscape__logo {
+    padding: inherit;
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 1rem;
+    margin-bottom: 20rem;
+}
+
+
+.page__footer {
+    background-color: #0E2E4E;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.page__footer p {
+    color: white;
+}
+
+
+.founder {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.founder__description {
+    width: 60%;
+}
+
+.founder__image__wrapper {
+    width: 118px;
+    height: 118px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.founder__image__wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 25%;
+    transform: scale(1.15);
+}
+/* With some clever scale tricks, we can make Alf's image appear a bit zoomed in */
+
+.founder__text__line {
+    color: #FFB901;
+    width: 20%;
+    height: 0.1rem;
+    background-color: #FFB901;
+    margin-left: 0;
+}
+
+.page__footer__container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer__information {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.footer__information__aboutUs, .footer__information__instagram {
+    flex-basis: 25%;
+}
+
+.footer__information__newMastodon {
+    flex-basis: 35%;
+}
+
+.footer__information__trackUs {
+    flex-basis: 15%;
+    margin-left: 75px;
+    order: 0;
+}
+.footer__information__newMastodon{
+    flex-basis: 15%;
+    order: 1;
+}
+
+
+
+.footer__information__aboutUs__header {
+    color: #FFB901;
+}
+
+.footer__information__aboutUs__line {
+    color: #21C183;
+    width: 95%;
+    align-self: flex-start;
+    margin-left: 0;
+}
+
+.footer__information__instagram__header {
+    color: #DE6262;
+}
+
+
+
+.footer__information__instagram__line {
+    color: #19B2DE;
+    width: 100%;
+    margin-left: 0;
+}
+
+.footer__information__newMastodon__header {
+    color: #19B2DE;
+}
+
+.footer__information__newMastodon__line {
+    color: #FFB901;
+    width: 65%;
+    margin-left: 0;
+}
+
+.footer__information__trackUs__header {
+    color: white;
+}
+
+.footer__information__trackUs__line {
+    color: #19B2DE;
+    width: 80%;
+    align-self: flex-start;
+    margin-left: 0;
+}
+
+.footer__information__instagram__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px 16px;
+}
+
+.footer__information__instagram__post {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.footer__information__newMastodon__container p {
+    font-size: 0.78rem;
+}
+
+.footer__trackUs__darkBlue {
+    background-color: #527CC4;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+.footer__trackUs__red {
+    background-color: #E46145;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+.footer__trackUs__lightBlue {
+    background-color: #00B0E2;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+.footer__trackUs__pink {
+    background-color: #F6679C;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+.footer__trackUs__yellow {
+    background-color: #FFB901;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+.footer__trackUs__color__container {
+    display: grid;
+    grid-template-columns: 42px 42px 42px 42px;
+    row-gap: 10px;
+}
+/* We can manually set the column gap by replacing "auto" with our desired gap */
+
+.footer__trackUs__redRectangle {
+    width: 130px;
+    height: 32px;
+    background-color: #DE6262;
+    border-radius: 2px;
+}
+
+.footer__trackUs__redRectangle p {
+    text-align: center;
+    line-height: 0px;
+}
+
+.footer__trackUs__email__container {
+    display: flex;
+    margin: 15px 0;
+}
+
+.footer__enter__email {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.9rem;
+}
+
+.footer_paper_plane {
+    border-radius: 2px;
+    margin-left: .35rem;
+    margin-top: .35rem;
+}
+
+.footer__information__newMastodon__author {
+    color: #1BADE6;
+}
+
+.clourbar__image {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: block;
+}
+
+.page__footer__image__container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

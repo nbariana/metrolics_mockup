@@ -4,8 +4,11 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Our Glorious Metrolics Website Web Presence</title>
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+
         <meta name="description" content="This is a website" />
+        <!-- <meta http-equiv="refresh" content="1" /> -->
 
         <meta property="og:title" content="" />
         <meta property="og:type" content="" />
@@ -26,27 +29,30 @@
         <header class="page__header">
             <div class="page__header__container">
                 <div class="page__header__content">
-                    <h1>Metrolics</h1>
-                    <img alt="metrolics logo" src="" />
-                    <nav>
-                        <ul>
-                            <li>Home</li>
-                            <li>Portfolio</li>
-                            <li>Blog</li>
-                            <li>Quo Vadis?</li>
-                            <li>Let's Chat</li>
-                        </ul>
-                    </nav>
-                    <div class="imageContainer">
-                        <img
-                            class="imageContainer__image"
-                            alt="minions hanging in front of clouds with company slogan"
-                        />
+                    <div class="page__navbar__content">
+                        <div class="page__header__logo__container">
+                            <img src="./images/logo.png" />
+                        </div>
+                        <nav class="navbar_options">
+                            <div class="navbar_container">
+                                <p class="navbar_selection_home">Home ></p>
+                                <p class="navbar_selection_portfolio">Portfolio ></p>
+                                <p class="navbar_selection_blog">Blog ></p>
+                                <p class="navbar_selection_qv">Quo Vadis? ></p>
+                                <p class="navbar_selection_lc">Let's Chat ></p>
+                            </div>
+                        </nav>
                     </div>
+                    
+                    <div class="hero_container">
+                        <img class="hero_chev" src="./images/left-chev.png" />
+                        <img class="hero_image" src="./images/hero.png" />
+                        <img class="hero_chev" src="./images/right-chev.png" />
+                    </div>
+                    
                     <h2 class="introduction">
-                        Hi folks! We are the
-                        <span class="introduction__span">Metrolics</span> design
-                        studio.With our help, the sky's the limit to express
+                        Hi folks! We are the&nbsp;<span class="introduction__span">Metrolics</span>&nbsp;design
+                        studio. With our help, the sky's the limit to express
                         your creativity!
                     </h2>
                 </div>
@@ -63,65 +69,77 @@
                                 <img
                                     class="services__card__image"
                                     alt="lightbulb in a box"
+                                    src="./images/web-solutions.png"
                                 />
-                                <h5 class="services__card__heading">
-                                    Web Solutions
-                                </h5>
-                                <p class="services__card__description">
-                                    We are a fairly small, flexible design
-                                    studio that designs for print and web. We
-                                    work flexibly with clients to fulfil their
-                                    design needs. We are confident you will be
-                                    pleased with the results.
-                                </p>
+                                <div class="services__card__content">
+                                    <h5 class="services__card__heading">
+                                        Web Solutions
+                                    </h5>
+                                    <p class="services__card__description">
+                                        We are a fairly small, flexible design
+                                        studio that designs for print and web. We
+                                        work flexibly with clients to fulfil their
+                                        design needs. We are confident you will be
+                                        pleased with the results.
+                                    </p>
+                                </div>
                             </div>
                             <div class="services__card">
                                 <img
                                     class="services__card__image"
                                     alt="camera in a box"
+                                    src="./images/photography.png"
                                 />
-                                <h5 class="services__card__heading">
-                                    Photography
-                                </h5>
-                                <p class="services__card__description">
-                                    We are a fairly small, flexible design
-                                    studio that designs for print and web. We
-                                    work flexibly with clients to fulfil their
-                                    design needs. We are confident you will be
-                                    pleased with the results.
-                                </p>
+                                <div class="services__card__content">
+                                    <h5 class="services__card__heading">
+                                        Photography
+                                    </h5>
+                                    <p class="services__card__description">
+                                        We are a fairly small, flexible design
+                                        studio that designs for print and web. We
+                                        work flexibly with clients to fulfil their
+                                        design needs. We are confident you will be
+                                        pleased with the results.
+                                    </p>
+                                </div>
                             </div>
                             <div class="services__card">
                                 <img
                                     class="services__card__image"
                                     alt="finger pointing in a box"
+                                    src="./images/app-development.png"
                                 />
-                                <h5 class="services__card__heading">
-                                    App Development
-                                </h5>
-                                <p class="services__card__description">
-                                    We are a fairly small, flexible design
-                                    studio that designs for print and web. We
-                                    work flexibly with clients to fulfil their
-                                    design needs. We are confident you will be
-                                    pleased with the results.
-                                </p>
+                                <div class="services__card__content">
+                                    <h5 class="services__card__heading">
+                                        App Development
+                                    </h5>
+                                    <p class="services__card__description">
+                                        We are a fairly small, flexible design
+                                        studio that designs for print and web. We
+                                        work flexibly with clients to fulfil their
+                                        design needs. We are confident you will be
+                                        pleased with the results.
+                                    </p>
+                                </div>
                             </div>
                             <div class="services__card">
                                 <img
                                     class="services__card__image"
                                     alt="pencil in drawing in a box"
+                                    src="./images/ux-design.png"
                                 />
-                                <h5 class="services__card__heading">
-                                    UX Design
-                                </h5>
-                                <p class="services__card__description">
-                                    We are a fairly small, flexible design
-                                    studio that designs for print and web. We
-                                    work flexibly with clients to fulfil their
-                                    design needs. We are confident you will be
-                                    pleased with the results.
-                                </p>
+                                <div class="services__card__content">
+                                    <h5 class="services__card__heading">
+                                        UX Design
+                                    </h5>
+                                    <p class="services__card__description">
+                                        We are a fairly small, flexible design
+                                        studio that designs for print and web. We
+                                        work flexibly with clients to fulfil their
+                                        design needs. We are confident you will be
+                                        pleased with the results.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -130,40 +148,13 @@
                         <h4 class="subheader">Read up on our latest work</h4>
                         <div class="latestWork__post__container">
                             <div class="latestWork__post">
-                                <p class="latestWork__date">29 Jan. 2025</p>
-                                <img alt="post image" />
-                                <div class="latestWork__post__title__container">
-                                    <p class="latestWork__post__title">
-                                        Sample Image post
-                                    </p>
-                                    <p class="latestWork__post__subtitle">
-                                        Photography
-                                    </p>
-                                </div>
+                                <img alt="post image" src="./images/card.png"/>
                             </div>
                             <div class="latestWork__post">
-                                <p class="latestWork__date">29 Jan. 2025</p>
-                                <img alt="post image" />
-                                <div class="latestWork__post__title__container">
-                                    <p class="latestWork__post__title">
-                                        Sample Image post
-                                    </p>
-                                    <p class="latestWork__post__subtitle">
-                                        Photography
-                                    </p>
-                                </div>
+                                <img alt="post image" src="./images/card.png"/>
                             </div>
                             <div class="latestWork__post">
-                                <p class="latestWork__date">29 Jan. 2025</p>
-                                <img alt="post image" />
-                                <div class="latestWork__post__title__container">
-                                    <p class="latestWork__post__title">
-                                        Sample Image post
-                                    </p>
-                                    <p class="latestWork__post__subtitle">
-                                        Photography
-                                    </p>
-                                </div>
+                                <img alt="post image" src="./images/card.png" />
                             </div>
                         </div>
                     </div>
@@ -175,36 +166,42 @@
                                 <img
                                     class="portfolio__post__image"
                                     alt="placeholder image"
+                                    src="./images/portfolio.png"
                                 />
                             </div>
                             <div class="portfolio__post">
                                 <img
                                     class="portfolio__post__image"
                                     alt="placeholder image"
+                                    src="./images/portfolio.png"
                                 />
                             </div>
                             <div class="portfolio__post">
                                 <img
                                     class="portfolio__post__image"
                                     alt="placeholder image"
+                                    src="./images/portfolio.png"
                                 />
                             </div>
                             <div class="portfolio__post">
                                 <img
                                     class="portfolio__post__image"
                                     alt="placeholder image"
+                                    src="./images/portfolio.png"
                                 />
                             </div>
                             <div class="portfolio__post">
                                 <img
                                     class="portfolio__post__image"
                                     alt="placeholder image"
+                                    src="./images/portfolio.png"
                                 />
                             </div>
                             <div class="portfolio__post">
                                 <img
                                     class="portfolio__post__image"
                                     alt="placeholder image"
+                                    src="./images/portfolio.png"
                                 />
                             </div>
                         </div>
@@ -219,32 +216,37 @@
                         <div class="previousClients__container">
                             <div class="previousClients__post">
                                 <img
-                                    class="previousClients__logo"
+                                    class="krita__logo"
                                     alt="Krita Logo"
+                                    src="./images/krita_logo.png"
                                 />
                             </div>
                             <div class="previousClients__post">
                                 <img
-                                    class="previousClients__logo"
+                                    class="inkscape__logo"
                                     alt="Inkscape Logo"
+                                    src="./images/inkscape_logo.png"
                                 />
                             </div>
                             <div class="previousClients__post">
                                 <img
-                                    class="previousClients__logo"
+                                    class="krita__logo"
                                     alt="Godot Logo"
+                                    src="./images/godot_logo.png"
                                 />
                             </div>
                             <div class="previousClients__post">
                                 <img
-                                    class="previousClients__logo"
+                                    class="krita__logo"
                                     alt="Blender Logo"
+                                    src="./images/blender_logo.png"
                                 />
                             </div>
                             <div class="previousClients__post">
                                 <img
-                                    class="previousClients__logo"
+                                    class="krita__logo"
                                     alt="Penpot Logo"
+                                    src="./images/penpot_logo.png"
                                 />
                             </div>
                         </div>
@@ -256,7 +258,9 @@
             <div class="page__footer__container">
                 <div class="page__footer__content">
                     <div class="founder">
-                        <img class="founder__image" alt="image of founder" />
+                        <div class= "founder__image__wrapper">
+                            <img class="founder__image" alt="image of founder" src="./images/founder_image.png"/>
+                        </div>
                         <div class="founder__text__container">
                             <p class="founder__description">
                                 Alf has over 10 years experience in the
@@ -305,42 +309,42 @@
                                 class="footer__information__instagram__container"
                             >
                                 <img
-                                    src=""
+                                    src="./images/minion_wave.png"
                                     alt="minion waving"
                                     class="footer__information__instagram__post"
                                 />
                                 <img
-                                    src=""
+                                    src="./images/minion_wave.png"
                                     alt="minion waving"
                                     class="footer__information__instagram__post"
                                 />
                                 <img
-                                    src=""
+                                    src="./images/minion_wave.png"
                                     alt="minion waving"
                                     class="footer__information__instagram__post"
                                 />
                                 <img
-                                    src=""
+                                    src="./images/minion_wave.png"
                                     alt="minion waving"
                                     class="footer__information__instagram__post"
                                 />
                                 <img
-                                    src=""
+                                    src="./images/minion_wave.png"
                                     alt="minion waving"
                                     class="footer__information__instagram__post"
                                 />
                                 <img
-                                    src=""
+                                    src="./images/minion_wave.png"
                                     alt="minion waving"
                                     class="footer__information__instagram__post"
                                 />
                                 <img
-                                    src=""
+                                    src="./images/minion_wave.png"
                                     alt="minion waving"
                                     class="footer__information__instagram__post"
                                 />
                                 <img
-                                    src=""
+                                    src="./images/minion_wave.png"
                                     alt="minion waving"
                                     class="footer__information__instagram__post"
                                 />
@@ -430,70 +434,31 @@
                             </div>
                         </div>
                         <div class="footer__information__trackUs">
-                            <h3 class="footer__information__trackUs__header">
+                           <h3 class="footer__information__trackUs__header">
                                 Track Us!
                             </h3>
-                            <hr class="footer__information__trackUs__line" />
-                            <div
-                                class="footer__information__trackUs__social__container"
-                            >
-                                <div
-                                    class="footer__information__trackUs__social"
-                                >
-                                    <img
-                                        class="footer__information__trackUs__social__image"
-                                        alt="social media icon"
-                                    />
-                                </div>
-                                <div
-                                    class="footer__information__trackUs__social"
-                                >
-                                    <img
-                                        class="footer__information__trackUs__social__image"
-                                        alt="social media icon"
-                                    />
-                                </div>
-                                <div
-                                    class="footer__information__trackUs__social"
-                                >
-                                    <img
-                                        class="footer__information__trackUs__social__image"
-                                        alt="social media icon"
-                                    />
-                                </div>
-                                <div
-                                    class="footer__information__trackUs__social"
-                                >
-                                    <img
-                                        class="footer__information__trackUs__social__image"
-                                        alt="social media icon"
-                                    />
-                                </div>
-                                <div
-                                    class="footer__information__trackUs__social"
-                                >
-                                    <img
-                                        class="footer__information__trackUs__social__image"
-                                        alt="social media icon"
-                                    />
-                                </div>
+                            <hr class="footer__information__aboutUs__line" />
+                            <div class="footer__trackUs__color__container">
+                                <div class="footer__trackUs__darkBlue"></div>
+                                <div class="footer__trackUs__red"></div>
+                                <div class="footer__trackUs__lightBlue"></div>
+                                <div class="footer__trackUs__pink"></div>
+                                <div class="footer__trackUs__yellow"></div>
                             </div>
-                            <div
-                                class="footer__information__trackUs__form__container"
-                            >
-                                <form
-                                    class="footer__information__trackUs__form"
-                                >
-                                    <input
-                                        type="email"
-                                        placeholder="Enter your Email..."
-                                    />
-                                    <button type="submit">
-                                        <img alt="paper plane icon" />
-                                    </button>
-                                </form>
+                            <div class="footer__trackUs__email__container">
+                                <div class="footer__trackUs__redRectangle">
+                                    <p class="footer__enter__email">Enter your email...</p>
+                                </div>
+                                <div class="footer__trackUs__yellow"><img class="footer_paper_plane" src="./images/plane_icon.png" alt="img of paper plane"/></div>
                             </div>
                         </div>
+                    </div>
+                    <div class="page__footer__image__container">
+                        <img
+                            class="clourbar__image"
+                            alt="colour bar for the bottom of the page"
+                            src="./images/colourbar_icon.png"
+                        />
                     </div>
                 </div>
             </div>
