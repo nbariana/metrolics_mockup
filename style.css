@@ -642,7 +642,102 @@ body {
         width: 100%;
         height: auto;
     }
+.previousClients {
+        display: none;
+    }
 
+    .page__footer {
+        padding: 20px 0;
+    }
+
+    .page__footer__container {
+        padding: 0 15px;
+    }
+
+    .founder {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .founder__description {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .founder__image__wrapper {
+        width: 60px;
+        height: 60px;
+    }
+
+    .founder__text__line {
+        width: 50%;
+    }
+
+    .footer__information {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__information__aboutUs,
+    .footer__information__instagram{
+        display: none;
+    }
+
+    .footer__information__aboutUs,
+    .footer__information__instagram,
+    .footer__information__newMastodon,
+    .footer__information__trackUs {
+        flex-basis: 100%;
+    }
+
+    .footer__information__aboutUs__header,
+    .footer__information__instagram__header,
+    .footer__information__newMastodon__header,
+    .footer__information__trackUs__header {
+        font-size: 1rem;
+    }
+
+    .footer__information p {
+        font-size: 0.85rem;
+    }
+
+    .footer__information__instagram__container {
+        gap: 10px;
+    }
+
+    .footer__information__instagram__post {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .footer__trackUs__color__container {
+        grid-template-columns: 32px 32px 32px 32px 32px;
+        column-gap: 8px;
+    }
+
+    .footer__trackUs__darkBlue,
+    .footer__trackUs__red,
+    .footer__trackUs__lightBlue,
+    .footer__trackUs__pink,
+    .footer__trackUs__yellow {
+        width: 28px;
+        height: 28px;
+    }
+
+    .footer__trackUs__redRectangle {
+        width: 100%;
+        /*max-width: 120px;*/
+    }
+
+    .footer__enter__email {
+        text-align: left;
+        font-size: 0.7rem;
+    }
+
+    .clourbar__image {
+        width: 100%;
+        height: auto;
+    }
 
 
 }
